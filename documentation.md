@@ -1,128 +1,47 @@
-# Welcome to Herodotus!
+<div class="welcome-card">
+  <div class="title">Welcome to</div>
+  <img src="img/welcome.svg" width="458">
+  <div class="call-to-action">Feel free to navigate throught any section of interest, or start by clicking in our most visited sections bellow.</div>
 
-This page will guide you through Herodotus features, but also works as a sample of a documentation generated with Herodotus itself. Feel free to play around.
+  <div class="call-to-action-links">
+    <a href="#" class="link">What is Peercoin?</a>
+    <a href="#" class="link">PoS vs PoW</a>
+    <a href="#" class="link">Minting vs Mining</a>
+  </div>
+</div>
 
------
+----
 
-## Instalation & Usage
+# Introduction to Peercoin
 
-In order to install Herodotus you have to follow those steps:
+Hello, and welcome to the Peercoin Documentation website. We hope to help you understand more about this coin, its philosopy and technologies that runs behind it. Before getting too technical, we invite you to dive a little bit into the history of Peercoin, leraning why it was created, and the purposes behind it.
 
-1. Run `git clone https://github.com/kazzkiq/herodotus.git`
-2. Inside your cloned repo, run `npm i -g brunch && npm i`
-3. Add your documentation to `documentation.md`
-4. Run `npm run start`
+## Peercoin Genesis: 2012
 
-From now on, you will be able to access your documentation from `http://localhost:3333` with auto-reloading if any change is detected.
+Since the creation of Bitcoin (Nakamoto 2008), proof-of-work has been the predominant design of peer-to-peer crypto currency. The concept of proof-of-work has been the backbone of minting and security model of Nakamoto’s design.
 
-## Production code
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a tellus pellentesque, varius risus at, mattis erat. Duis tincidunt nulla quis odio dapibus tempor. Nunc egestas dictum orci vitae fringilla. Ut dictum ac sapien vel iaculis. Duis varius libero vitae fringilla vulputate. Donec posuere vel risus nec cursus. Integer in lectus ut tellus vehicula ultricies vel vel elit. Morbi mattis eleifend tellus eget tempus. Duis tristique et justo ut gravida. Vivamus maximus commodo consequat. Donec faucibus erat a scelerisque eleifend. Vestibulum pretium nunc vel consequat sollicitudin. Cras tortor nulla, semper a sapien ut, aliquam congue nisi. Nullam id suscipit urna, a maximus velit.
 
-If you want to generate production code, simply run: `npm run build`. Now all the files in `/public` folder can be sent to your remote server.
+Etiam egestas a mi a maximus. Phasellus sed dictum tortor, in sodales nulla. Vestibulum ut nisi volutpat, dictum orci vitae, rutrum augue. Praesent convallis urna dui. Vestibulum auctor leo eget dui semper hendrerit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In sed sapien varius ante volutpat mattis.
 
-## About AJAX calls
+Sed nisi neque, porta varius tristique eget, viverra sed magna. Donec venenatis nulla augue, quis dignissim neque hendrerit vel. Aliquam vitae mi nisl. Donec ut varius lectus. Curabitur euismod, metus ut vulputate sollicitudin, velit leo elementum est, eget accumsan ligula metus quis justo. Nullam et gravida sapien. Ut nec arcu id lorem sagittis eleifend. Phasellus est sapien, finibus nec viverra id, elementum quis augue. Vivamus sapien magna, iaculis id sem eu, porttitor sodales nulla.
 
-Herodotus loads the documentation via AJAX calls. If your server blocks AJAX requests, it may be possible that the documentation will have trouble to be shown. If your content isn't showing up, check your network tab in console to see if it isn't a server issue.
+Fusce nec facilisis quam, sit amet venenatis erat. Donec dapibus nulla quis mi ultrices, nec gravida ipsum hendrerit. Curabitur vel tincidunt augue. Nullam nec sagittis tellus, et commodo erat. Aliquam quis vulputate ante, eget viverra mi. Cras nec tortor scelerisque, facilisis eros eget, mollis libero. Sed at risus a orci aliquam gravida. Pellentesque scelerisque scelerisque cursus. Nam egestas lacus pulvinar ex ultricies mattis non in lacus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque leo dolor, scelerisque id faucibus pellentesque, tempor vel dolor. Quisque laoreet hendrerit turpis, ut interdum quam varius non. Phasellus consectetur turpis at suscipit semper. Maecenas ante dui, sollicitudin et auctor et, rutrum quis eros. Maecenas mattis, risus non imperdiet euismod, odio sem cursus magna, nec feugiat metus erat eget nisi.
 
-# Writing Docs
+# Peercoin vs Bitcoin
 
-Herodotus uses [marked](https://github.com/chjj/marked) library for Markdown parsing and thus supports Github's flavored markdown. This means that ~~almost~~ everything that works on Github's `.md` files will also work here. You're also free to add any valid HTML markup inside your documentation file and Herodotus will also parse it accordingly.
+Since the creation of Bitcoin (Nakamoto 2008), proof-of-work has been the predominant design of peer-to-peer crypto currency. The concept of proof-of-work has been the backbone of minting and security model of Nakamoto’s design.
 
-## Configuration files
+## Features of Bitcoin
 
-Its important to understand files in Herodotus. This way you can easily adapt the documentation to your needs, from theming (which we will be talking later on) to further deep components behavior.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a tellus pellentesque, varius risus at, mattis erat. Duis tincidunt nulla quis odio dapibus tempor. Nunc egestas dictum orci vitae fringilla. Ut dictum ac sapien vel iaculis. Duis varius libero vitae fringilla vulputate. Donec posuere vel risus nec cursus. Integer in lectus ut tellus vehicula ultricies vel vel elit. Morbi mattis eleifend tellus eget tempus. Duis tristique et justo ut gravida. Vivamus maximus commodo consequat. Donec faucibus erat a scelerisque eleifend. Vestibulum pretium nunc vel consequat sollicitudin. Cras tortor nulla, semper a sapien ut, aliquam congue nisi. Nullam id suscipit urna, a maximus velit.
 
-### Files you may want to edit:
-- `/app/assets/img/favicon-16.png` - Browser's favicon
-- `/app/assets/img/favicon-32.png` - Browser's favicon for retina screens
-- `/app/assets/img/logo.svg` - Documentation logo
-- `/app/assets/img/og.png` - Image shown in Social Medias when your URL gets linked
-- `/app/assets/index.html` - Make sure to edit documentation `<title>` and `og` metatags
+Etiam egestas a mi a maximus. Phasellus sed dictum tortor, in sodales nulla. Vestibulum ut nisi volutpat, dictum orci vitae, rutrum augue. Praesent convallis urna dui. Vestibulum auctor leo eget dui semper hendrerit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In sed sapien varius ante volutpat mattis.
 
-## Where do I write
+## Features of Peercoin
 
-There is only **one** entry point for your documentation, and its called `documentation.md`. It is located at:
+Sed nisi neque, porta varius tristique eget, viverra sed magna. Donec venenatis nulla augue, quis dignissim neque hendrerit vel. Aliquam vitae mi nisl. Donec ut varius lectus. Curabitur euismod, metus ut vulputate sollicitudin, velit leo elementum est, eget accumsan ligula metus quis justo. Nullam et gravida sapien. Ut nec arcu id lorem sagittis eleifend. Phasellus est sapien, finibus nec viverra id, elementum quis augue. Vivamus sapien magna, iaculis id sem eu, porttitor sodales nulla.
 
-```
-/app/assets/documentation.md
-```
+Fusce nec facilisis quam, sit amet venenatis erat. Donec dapibus nulla quis mi ultrices, nec gravida ipsum hendrerit. Curabitur vel tincidunt augue. Nullam nec sagittis tellus, et commodo erat. Aliquam quis vulputate ante, eget viverra mi. Cras nec tortor scelerisque, facilisis eros eget, mollis libero. Sed at risus a orci aliquam gravida. Pellentesque scelerisque scelerisque cursus. Nam egestas lacus pulvinar ex ultricies mattis non in lacus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque leo dolor, scelerisque id faucibus pellentesque, tempor vel dolor. Quisque laoreet hendrerit turpis, ut interdum quam varius non. Phasellus consectetur turpis at suscipit semper. Maecenas ante dui, sollicitudin et auctor et, rutrum quis eros. Maecenas mattis, risus non imperdiet euismod, odio sem cursus magna, nec feugiat metus erat eget nisi.
 
-Everything you write inside this file will be sent to your documentation and may also affect your documentation navigation (that is generated from `<h1>` and `<h2>` tags in your `documentation.md` file).
-
-For now there isn't a option for multiple `.md` files. This may be added in the future.
-
-## Where to put images
-
-Any media added in your documentation should go into the path:
-
-```
-/app/assets/
-```
-
-You're free to create folders at will. Anything created inside `assets/` will be sent to `public/` folder after the build runs.
-
-To link images to your documentation you can use Markdown or HTML syntax:
-
-```
-![My Image Title Here](image.jpg)
-
-or
-
-<img src="image.jpg" alt="My Image Title Here">
-```
-
-# Theming
-
-Style and structure changes should feel painless in Herodotus. With a ridiculously simple source-code and easy to understand stylesheets users should be able to make changes as small as changing colors to as big as modifying or adding new components to the documentation.
-
-Herodotus uses Riot.js for componentization. If you're not familiarized with this library syntax, you could read more [about it here](http://riotjs.com/).
-
-## Documentation colors
-
-All colors used in Herodotus are by default derivated from `_variables.scss` file. There are basically five main colors:
-
-- `$color-fonts` - Default color for fonts
-- `$color-neutral` - Darker neutral color
-- `$color-lightneutral` - Lighter neutral color (used in backgrounds)
-- `$color-primary` - Main theme color (purple in this page)
-- `$color-secondary` - Second theme color (blue in this page)
-
-By editing those variables you can generate a whole new look to your documentation.
-
-## Fonts & Font-family
-
-By default Herodotus uses **Noto Sans** for documentation and **Inconsolata** for code snippets, but you can easily change that my importing your desired font and by changing the variables `$app-font` and `$app-font-mono` in `_variables.scss`.
-
-## Components
-
-By default, Herodotus only needs three build-in components in order to work, they are located at `/app/components` folder. Lets learn what each one does.
-
-The `.tag` extension is a convention from Riot.js, those files are basically HTML snippets, which means that you could simply config your code editor to highlight them as HTML files.
-
-### MainComp
-
-`/src/components/MainComp.tag`
-
-This is the root component. It is responsible for loading other components, fetching the `documentation.md` file and mounting it to the page.
-
-### MenuComp
-
-`/src/components/MenuComp.tag`
-
-This is the component responsible for navigation. It generates the navigation links from MainComp information (after fetching the documentation) and is also responsible for listening scroll events to trigger "active" states to menu items based on scroll position.
-
-This component is also responsible for the mobile off-canvas menu and its actions.
-
-### TopbarComp
-
-`/src/components/TopbarComp.tag`
-
-This component is responsible for the actions of changing font sizes and by providing an optional "outside" link to a Github Page, or Website.
-
-## Creating a new Component
-
-In order to add a new custom component to your documentation you should follow this convention:
-
-1. Create a component file at `/app/components/{NAME}Comp.tag`;
-2. Create a SCSS file at `/app/styles/components/{NAME}Comp.scss`;
-3. Insert this component inside `MainComp` component;
-4. Import this component at `/app/initialize.js`.
+Sed nisi neque, porta varius tristique eget, viverra sed magna. Donec venenatis nulla augue, quis dignissim neque hendrerit vel. Aliquam vitae mi nisl. Donec ut varius lectus. Curabitur euismod, metus ut vulputate sollicitudin, velit leo elementum est, eget accumsan ligula metus quis justo. Nullam et gravida sapien. Ut nec arcu id lorem sagittis eleifend. Phasellus est sapien, finibus nec viverra id, elementum quis augue. Vivamus sapien magna, iaculis id sem eu, porttitor sodales nulla.
